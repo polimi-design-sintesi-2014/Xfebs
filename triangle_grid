@@ -1,0 +1,18 @@
+size(400,400);
+for( int x = 0; x < width; x = x+10){
+  for (int y=0;y<height;y=y+10){
+    line(x,y,y,x);
+    }
+}
+for( int x = 0; x < width; x = x+10){
+  for (int y=0;y<height;y=y+10){
+    line(400-x,y,400-y,x);
+    }
+}
+beginShape () ;
+vertex ( 200,100);
+vertex ( 20,250);
+vertex ( 380,250);
+
+endShape( CLOSE);
+
